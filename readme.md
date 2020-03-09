@@ -2,7 +2,7 @@
 
 ## Features
 
-- Basic files support (HTML, CSS, Stylus, JS, Images, Fonts)
+- Basic files support (HTML, CSS, Stylus, JS, Images, Fonts, Audios)
 - Extracted CSS
 - Transpilled JS (with Babel)
 - Sourcemaps
