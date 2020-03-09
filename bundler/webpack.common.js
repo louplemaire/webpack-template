@@ -68,6 +68,19 @@ module.exports = {
                 ]
             },
             {
+                test: /\.(mp3|wav|ogg)$/,
+                use:
+                [
+                    {
+                        loader: 'file-loader',
+                        options:
+                        {
+                            outputPath: 'audios/'
+                        }
+                    }
+                ]
+            },
+            {
                 test: /\.(html)$/,
                 use: ['html-loader']
             },
